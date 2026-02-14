@@ -1,0 +1,27 @@
+Run: execution
+Trades: 4572089
+Maker/Taker fills: 0 / 593
+Exec qty (units): 7000
+Exec filled (units): 6926
+Completion (%): 98.9429
+End shortfall (units): 74
+Exec submitted qty: 7444
+Exec forced IOC: 4
+Exec ML IOC: 133
+Exec skips: 42
+Exec max no-fill streak: 3
+Position limit (units): 7000
+Inventory: 6926
+Max abs inventory (observed): 6926
+MTM (cash+inv@mid): 1.34714e+07
+Spread capture: 0
+Fees: 3.15626e+06
+Markout PnL (@ horizon): -3.14628e+06
+
+Markout (by horizon ms): 50=9974, 250=11870, 1000=37983, 5000=45639
+
+Per maker trade (edge/adverse/fees/pnl): 0 / 0 / 0 / 0
+
+Fees (maker/taker/total): 0 / 3.15626e+06 / 3.15626e+06
+Fee per fill (maker/taker/total): 0 / 5322.52 / 5322.52
+Avg notional (maker/taker/total): 0 / 1.0645e+07 / 1.0645e+07

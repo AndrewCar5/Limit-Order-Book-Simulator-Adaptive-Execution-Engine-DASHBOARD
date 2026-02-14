@@ -77,9 +77,15 @@ def downsample(df: pd.DataFrame, max_points: int) -> pd.DataFrame:
 
 
 def load_dataset(out_dir: Path):
-    trades_path = out_dir / "execution_trades.csv"
-    book_path = out_dir / "execution_book.csv"
-    orders_path = out_dir / "execution_orders.csv"
+    trades_path = out_dir / "execution_trades_public.csv"
+    if not trades_path.exists():
+        trades_path = out_dir / "execution_trades.csv"
+    book_path = out_dir / "execution_book_public.csv"
+    if not book_path.exists():
+        book_path = out_dir / "execution_book.csv"
+    orders_path = out_dir / "execution_orders_public.csv"
+    if not orders_path.exists():
+        orders_path = out_dir / "execution_orders.csv"
     decisions_path = out_dir / "execution_decisions.csv"
     run_breakdown_path = out_dir / "run_breakdown.txt"
 

@@ -3,4 +3,6 @@
 .vscode/
 __pycache__/
 build/
-outputs*/
+outputs_exec_twap_full/execution_book.csv
+outputs_exec_twap_full/execution_orders.csv
+outputs_exec_twap_full/execution_trades.csv
